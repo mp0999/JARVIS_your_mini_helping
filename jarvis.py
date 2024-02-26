@@ -86,7 +86,7 @@ if __name__ == "__main__":
             
         
         elif 'play music' in query:
-            music_dir = "C:\\Users\\mayur\\Music"
+            music_dir = "C:\\Users\\host\\Music"
             songs = os.listdir(music_dir)
             # print(songs)
             os.startfile(os.path.join(music_dir, songs[1]))
@@ -97,7 +97,7 @@ if __name__ == "__main__":
             speak(f"gentelman, The time is {strTime}")
             
         elif 'open code' in query:
-            path = "C:\\Users\\mayur\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            path = "C:\\Users\\host\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(path)
 
         elif 'sent email to mp' in query:
