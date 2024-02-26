@@ -110,8 +110,5 @@ if __name__ == "__main__":
             except Exception as e:
                 print(e)
                 speak("Sorry my friend emailwada bhai. i am not able to sent this email")
-                
-        # elif "any" in query:
-        #     pass
         
         
