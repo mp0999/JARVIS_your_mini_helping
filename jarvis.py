@@ -111,4 +111,6 @@ if __name__ == "__main__":
                 print(e)
                 speak("Sorry my friend emailwada bhai. i am not able to sent this email")
         
-        
+        elif "sleep now" in query:
+            speak("ok, anytime call me i am here now!")
+            exit()
